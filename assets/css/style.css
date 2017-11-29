@@ -1,0 +1,158 @@
+p {
+  color: #777777;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-size: 25px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  border-bottom: 2px solid #dddddd;
+  padding: 3px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+.media img {
+  width: 60px;
+  height: 60px;
+  padding-right: 5%;
+}
+
+.Profilepic {
+  max-width: 260px;
+  min-width: 260px;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  float: left;
+  margin-right: 10px;
+}
+
+.col-lg-8, .col-md-8, .col-sm-12 {
+  padding-left: 0px;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../images/skulls.png");
+  margin: 0;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.card {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.card-img {
+  padding: 0px;
+}
+
+.gp-navbar-brand {
+  width: 250px;
+  background: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  line-height: 70px;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: None;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.space {
+  padding: 0px;
+}
+
+.gpcard-caption img {
+  height: 200px;
+}
+
+.navbar-bottom-margin {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding: 0 0 0 0 !important
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 150px;
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: #4aaaa5;
+  color: #fff;
+  padding: 15px 25px;
+  border: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.gpcard-caption {
+  position: relative;
+}
+
+.gpcard-title {
+  background-color: teal;
+  color: #ffffff;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  position: absolute;
+  font-size: 25px;
+  bottom: 10px;
+  left: 0px;
+}
+
+@media only screen and (max-width: 640px) {
+  .col-lg-8, .col-md-8, .col-sm-12 {
+    padding-right: 0px;
+  }
+}
+
+.card-footer {
+  background-color: #666666;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  padding: 10px;
+  text-align: center;
+  border-top: 4px solid #4aaaa5;
+  height: 70px;
+  vertical-align: middle;
+}
